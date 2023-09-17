@@ -26,7 +26,7 @@ const openai = new OpenAIApi({
 
 
 app.listen(PORT, () => {
-    console.log(`Server running on port salope${PORT}`);
+    console.log(`Server running on port : ${PORT}`);
 });
 
 app.get('/api/test', (req, res) => {
