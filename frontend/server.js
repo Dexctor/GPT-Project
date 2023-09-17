@@ -21,7 +21,7 @@ const PORT = 3001;
 
 
 const openai = new OpenAIApi({
-    apikey: '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'
+    apikey: ''
 });
 
 
